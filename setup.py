@@ -1,30 +1,31 @@
 """
-Flask-Session
+Flask-Session-Imp
+
 -------------
 
 Flask-Session is an extension for Flask that adds support for 
 Server-side Session to your application.
 
-Links
-`````
+just modify on 'flask_session'
 
+`````
 * `development version
-  <https://github.com/fengsp/flask-session/zipball/master#egg=Flask-dev>`_
+  <https://github.com/mikezone/flask-session/master#egg=Flask-dev>`_
 
 """
 from setuptools import setup
 
 
 setup(
-    name='Flask-Session',
-    version='0.3.1',
-    url='https://github.com/fengsp/flask-session',
+    name='Flask-Session-Imp',
+    version='0.0.1',
+    url='https://github.com/mikezone/flask-session',
     license='BSD',
-    author='Shipeng Feng',
-    author_email='fsp261@gmail.com',
+    author='mike_chang',
+    author_email='82643885@qq.com',
     description='Adds server-side session support to your Flask application',
     long_description=__doc__,
-    packages=['flask_session'],
+    packages=['flask_session_imp'],
     zip_safe=False,
     include_package_data=True,
     platforms='any',

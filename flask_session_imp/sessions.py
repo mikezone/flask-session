@@ -155,8 +155,8 @@ class RedisSessionInterface(SessionInterface):
         # should be set or not.  This is controlled by the
         # SESSION_REFRESH_EACH_REQUEST config flag as well as
         # the permanent flag on the session itself.
-        # if not self.should_set_cookie(app, session):
-        #    return
+        if not self.should_set_cookie(app, session):
+            return
 
         httponly = self.get_cookie_httponly(app)
         secure = self.get_cookie_secure(app)
