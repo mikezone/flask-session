@@ -14,7 +14,7 @@ with io.open('flask_session_imp/__init__.py', 'rt', encoding='utf8') as f:
 
 setup(
     name='Flask-Session-Imp',
-    version='0.0.1',
+    version=version,
     url='https://github.com/mikezone/flask-session',
     project_urls=OrderedDict((
         ('Documentation', 'https://github.com/mikezone/flask-session'),
@@ -24,8 +24,8 @@ setup(
     license='BSD',
     author='mike_chang',
     author_email='82643885@qq.com',
-    maintainer='galaxy.Inc',
-    maintainer_email='xxxx@galaxy.com',
+    maintainer='mike_chang',
+    maintainer_email='82643885@qq.com',
     description='Adds server-side session support to your Flask application',
     long_description=readme,
     packages=['flask_session_imp'],
